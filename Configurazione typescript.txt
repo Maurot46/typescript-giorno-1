@@ -1,0 +1,10 @@
+Guida installazione typescript a livello globale
+1. npm init
+2. npm i typescript
+3. npm i -g typescript
+Installazione per ogni proggetto eseguire questo comando
+4. tsc --init
+-Far transpilare il typescript in un file js
+tsc nomeFile.ts
+-Far compilare automaticamente il js
+tsc --watch nomeFile.ts
